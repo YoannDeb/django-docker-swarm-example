@@ -5,4 +5,4 @@ services:
     build:
       context: ..
       dockerfile: ./deployment/Dockerfile
-    image: ghcr.io/yoanndeb/${IMAGE_NAME}/django-app:${GITHUB_SHA_SHORT}
+    image: ghcr.io/yoanndeb/django-docker-swarm-example/django-app:${GITHUB_SHA_SHORT}
